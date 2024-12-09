@@ -4,11 +4,11 @@ An easy Python example to chat with Azure OpenAI Service, based on the Code sect
 
 ## Setup and prerequisites
 
-Create a Python virtual environment (`virtualenv`) and install the requirements:
+Create a Python virtual environment with python=3.8:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+conda create -n envname python=3.8
+conda activate envname
 ```
 
 Install the requirements:
